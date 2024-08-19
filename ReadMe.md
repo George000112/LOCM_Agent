@@ -25,7 +25,9 @@ This ranking may ***change dynamically***, depending on the agent's ability, num
 | BeamSearchAgent| Silver  122/384 | 58% |18.42|
 <!-- |    | Silver   | 65%  | -->
 
-## TimeLine
+## TimeLine/MileStones
 
-- [x] Finish An Agent Based on Human Experiences of Playing HeartStone.
-- [ ] Implement Some Baseline From CCG 2020/2021 and Modified to adapt rules for now. 
+- [x] 2024-06-07: Finish An Agent Based on Human Experiences of Playing HeartStone.
+- [x] 2024-07-05: Implement Some Baseline From CCG 2020/2021 and Modified to Adapt Rules for Now. 
+- [x] 2024-07-21: MinMax agent is finished, use this agent we achieve silver first time.
+- [x] 2024-07-25: BeamSearch Agent is finished, provides a wider range of search strategies
