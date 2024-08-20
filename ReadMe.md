@@ -22,6 +22,7 @@ This ranking may ***change dynamically***, depending on the agent's ability, num
 | MugenSlayerAttackOnDuraraBallV3| Silver 332/394 | 51%  |15.67|
 | UJIAGENT2   | Silver  297/394 | 52%  |16.29|
 | MinMaxAgent | Silver  130/384 | 54%  |17.18|
+| MonteCorleAgent| Silver  126/384 | 56%  |17.98|
 | BeamSearchAgent| Silver  122/384 | 58% |18.42|
 <!-- |    | Silver   | 65%  | -->
 
@@ -31,3 +32,4 @@ This ranking may ***change dynamically***, depending on the agent's ability, num
 - [x] 2024-07-05: Implement Some Baseline From CCG 2020/2021 and Modified to Adapt Rules for Now. 
 - [x] 2024-07-21: MinMax agent is finished, use this agent we achieve silver first time.
 - [x] 2024-07-25: BeamSearch Agent is finished, provides a wider range of search strategies
+- [x] 2024-08-16: MontoCarlo Agent is finished, based on the code of BeamSearch Agent

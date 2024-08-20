@@ -1,6 +1,6 @@
 # ------------------------------------------------------------
 # ------------------------------------------------------------
-# BeamSearchAgent for CodinGame: Legends of Code and Magic
+# MonteCarloAgent for CodinGame: Legends of Code and Magic
 # Version 1.0
 # Coropyright: MIT License
 # Author: George from Newcastle university
@@ -1481,7 +1481,7 @@ class Turn:
         reward += self.state.opponent_cardvalue() - self.turn_state.opponent_cardvalue()
         return reward
 
-class BeamSearchAgent:
+class MonteCarloAgent:
     def __init__(self):
         self.state = None
         self.last_state = None
@@ -1572,7 +1572,7 @@ class BeamSearchAgent:
         return self.state.player1.hp - self.last_state.player1.hp + self.last_state.player2.hp - self.state.player2.hp
 
 if __name__ == '__main__':
-    agent = BeamSearchAgent()
+    agent = MonteCarloAgent()
 
     while True:
         agent.read_input()
